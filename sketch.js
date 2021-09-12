@@ -29,7 +29,7 @@ function draw() {
   background(0);
   
   // boy moving on Xaxis with mouse'
- 
+ rabbit.x=mouseX
   
   edges= createEdgeSprites();
   rabbit.collide(edges);
